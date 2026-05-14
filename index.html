@@ -911,6 +911,8 @@ document.getElementById('contactForm').addEventListener('submit', async function
         message: document.getElementById('message').value,
         status: 'new' // 默认状态
     };
+
+    const form = document.getElementById('contactForm');
     
     try {
         // 替换为您的 Supabase 项目URL 和 anon key
